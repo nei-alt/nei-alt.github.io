@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>My Homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    table {
+      width: 100%;
+      max-width: 400px;
+      margin: 24px auto;
+      border-spacing: 10p;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    caption {
+      font-family: "Roboto", sans-serif;
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: #440695;
+      margin-bottom: 8px;
+      padding: 8px 0;
+    }
+
+    th,
+    td {
+      border: 1px solid #e6c8fa;
+      padding: 10px 8px;
+      text-align: left;
+      font-family: "Newsreader", serif;
+      font-size: 1rem;
+    }
+
+    th {
+      background: #440695;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) td {
+      background: #f7eaff;
+    }
+
+    @media (max-width: 600px) {
+      table {
+        width: 100%;
+        font-size: 0.95rem;
+        max-width: 100%;
+      }
+
+      th,
+      td {
+        padding: 8px 4px;
+        font-size: 0.95rem;
+      }
+
+      caption {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption>Information 2025</caption>
+    <tr>
+      <th>Code</th>
+      <th>Name</th>
+      <th>Ref</th>
+    </tr>
+    <tr>
+      <td rowspan="2">C2613</td>
+      <td>Chan Tai Man</td>
+      <td>Halo</td>
+    </tr>
+    <tr>
+      <!-- <td>B2367</td> -->
+      <td>Li Sheung Sheung</td>
+      <td>Moe</td>
+    </tr>
+    <tr>
+      <td>D9431</td>
+      <td>Ma Mei Yan</td>
+      <td>Qrc</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align: center;">A4347</td>
+      <!-- <td>Wong Man Shan</td> -->
+      <!-- <td>OMG</td> -->
+    </tr>
+    <tr>
+      <td>E5555</td>
+      <td>Lee Ka Yan</td>
+      <td>Star</td>
+    </tr>
+  </table>
+</body>
+
+</html>
