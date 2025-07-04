@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .nav-buttons {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .nav-buttons a {
+      color: red;
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 20px;
+      background: linear-gradient(90deg, #ff9800 0%, #ffcc00 100%);
+      border: none;
+      border-radius: 24px;
+      font-weight: bold;
+      transition: background 0.3s, color 0.3s;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      margin: 4px 0;
+      font-size: 1rem;
+    }
+
+    .nav-buttons a:hover {
+      color: #333;
+      background: linear-gradient(90deg, #ffe066 0%, #ffd700 100%);
+    }
+
+    @media (max-width: 600px) {
+      .nav-buttons {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+      }
+
+      .nav-buttons a {
+        width: 100%;
+        text-align: center;
+        font-size: 1.1rem;
+        padding: 12px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1 title="Ha Ha Ha Ha">Welcome to SHARBUCKS</h1>
+
+  <hr>
+
+  <div class="nav-buttons">
+    <a href="sb_about.html">About</a>
+    <a href="sb_list.html">Our Office</a>
+    <a href="sb_info.html">Green Tea</a>
+    <a href="sb_style.html">More About Us</a>
+    <a href="mailto:sharbuckz@gmail.con">Mail</a>
+  </div>
+
+  <hr>
+
+  <h2>Info</h2>
+  <p>Hello, this is our <a href="sb_about.html">first webpage</a> in the net!</p>
+
+  <p><a href="sb_list.html"><img src="images/sharbox.jpg" alt="Our Office" title="我的公司"></a></p>
+
+  <p>Join us any time for fresh fruit, <a href="sb_info.html">green tea</a> and maybe a game or an Eating Group. WIFI is always available.</p>
+
+  <h2>Where</h2>
+  <p>You'll find us right in the center of <a href="https://zh.wikipedia.org/wiki/%E7%81%A3%E4%BB%94">Wan Chai</a>. Come and join us!</p>
+
+  <h2>Contact</h2>
+  <p>Click to <a href="mailto:sharbuckz@gmail.con">mail</a></p>
+  <p>
+    Phone:9998-9998 <br>
+    Fax:9997-9997
+  </p>
+  <p>More about us: <a href="sb_style.html">Click Here</a></p>
+
+
+</body>
+
+</html>

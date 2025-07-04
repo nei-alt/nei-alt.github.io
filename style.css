@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  color: #7600dd;
+  background-color: #e6c8fa;
+  text-align: justify;
+
+  /* border: gold solid 1px; */
+  padding: 20px;
+
+  /* max-width: 600px; */
+  margin: 20px auto;
+
+  /* font-size: 18px; */
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  line-height: 120%;
+}
+
+h1 {
+  color: #440695;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
