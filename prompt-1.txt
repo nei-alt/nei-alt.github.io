@@ -1,0 +1,1 @@
+create a Member info form, with name, password, gender address items
